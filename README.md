@@ -60,15 +60,15 @@ Campaigns trigger automatically when a customer's churn score crosses each tier 
 ---
 
 ## Repository Structure
-nonprofit-churn-prediction/
-├── nonprofit_churn_prediction.ipynb
-├── README.md
-├── eda_charts.png
-├── feature_importance.png
-├── model_evaluation.png
-├── risk_segmentation.png
-└── scored_customers.csv
----
+
+| File | Description |
+|---|---|
+| `nonprofit_churn_prediction.ipynb` | End-to-end analysis notebook |
+| `eda_charts.png` | Behavioral patterns by churn status |
+| `feature_importance.png` | Top churn drivers by model coefficient |
+| `model_evaluation.png` | Confusion matrix and ROC curve |
+| `risk_segmentation.png` | Score distribution and tier breakdown |
+| `scored_customers.csv` | Full scored dataset, ready for CRM upload |
 
 ## Tech Stack
 
